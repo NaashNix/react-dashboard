@@ -1,11 +1,11 @@
 import React from 'react';
-import Card from './components/UI/Card';
+import Dashboard from './components/Dashboard';
 
 
 function App() {
   return (
     <div>
-        <Card color={'black'} >Hello</Card>
+        <Dashboard />
     </div>
   );
 }
