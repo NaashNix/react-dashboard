@@ -19,7 +19,7 @@ const Dashboard = (props) => {
 				<CountViewer bgColor={"#09A24F"} heading={"ITEMS"} count={"89"} />
 			</div>
 			<div>
-				<Button bgColor={"#F4891D"} onClick={props.onClick}>
+				<Button bgColor={"#F4891D"} onclick={props.onclick}>
 					ADD CUSTOMERS
 				</Button>
 				<Button bgColor={"#D80A90"}>ADD ITEMS</Button>
