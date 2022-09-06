@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import CustomerPage from './components/CustomerPage';
 import Dashboard from './components/Dashboard';
+import ItemForm from './components/ItemForm/ItemForm';
 
 
 function App() {
@@ -18,10 +19,15 @@ function App() {
     setCsVisibility(false);
   }
 
+  const addItemClicked = () => {
+    console.log('sada')
+  }
+
   return (
     <div>
       <Dashboard onclick={appClicked} visibility={visibility} />
       <CustomerPage onclick={backButtonClicked} visibility={csVisibility} />
+      <ItemForm onclick={addItemClicked} />
     </div>
   );
 }

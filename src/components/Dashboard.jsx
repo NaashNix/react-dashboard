@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import CountViewer from './CountViewer';
-import Form from './CustomerForm/Form';
+
 import classes from './Dashboard.module.css';
 import Button from './UI/Button';
 
@@ -22,7 +22,7 @@ const Dashboard = (props) => {
 				<Button bgColor={"#F4891D"} onclick={props.onclick}>
 					ADD CUSTOMERS
 				</Button>
-				<Button bgColor={"#D80A90"}>ADD ITEMS</Button>
+				<Button bgColor={"#D80A90"} onclick={props.onclick} >ADD ITEMS</Button>
 			</div>
 			
 		</div>
